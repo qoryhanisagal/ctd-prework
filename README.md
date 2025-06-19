@@ -65,5 +65,3 @@ This is part of my **personal learning journey** and shared as a public repo to 
 
 **Created by Sequoyah Descoteaux**  
 [LinkedIn](#) • [GitHub: qoryhanisagal](https://github.com/qoryhanisagal)
-
-⸻
