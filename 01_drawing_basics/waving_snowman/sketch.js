@@ -24,5 +24,11 @@ function setup() {
   fill(255, 102, 0);
   triangle(200, 155, 200, 160, 220, 157);
 
-  // Step 8: Add waving arm (we'll do this next!)
+    // Step 8: Add waving arm (right arm raised)
+  stroke(102, 51, 0);         // Brown stick color
+  strokeWeight(4);           // Make the stick thicker
+  line(230, 220, 280, 150);  // Right arm waving up
+
+  // Left arm for balance
+  line(170, 220, 120, 220);  // Straight out to left
 }
