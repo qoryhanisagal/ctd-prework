@@ -1,6 +1,10 @@
 function setup() {
   createCanvas(400, 400);     // Step 1: Set up canvas
   background(220);            // Step 2: Light gray background
+  textSize(24);
+  textAlign(CENTER);
+  fill(0);
+  text("Waving Snowman", width / 2, 40);
   noStroke();                 // Step 3: No outlines on shapes
 
   // Step 4: Draw ground (BEFORE snowman to appear behind it)
