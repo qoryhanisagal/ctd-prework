@@ -31,4 +31,18 @@ function setup() {
 
   // Left arm for balance
   line(170, 220, 120, 220);  // Straight out to left
+
+  // Step 9: Add buttons
+
+  // Red button 1 (top)
+  fill(255, 0, 0); // Red
+  ellipse(200, 215, 6, 6);
+
+  // Gold button 2
+  fill(255, 215, 0); // Gold (RGB for gold tone)
+  ellipse(200, 230, 6, 6);
+
+  // Red button 3
+  fill(255, 0, 0); // Red
+  ellipse(200, 245, 6, 6);
 }
