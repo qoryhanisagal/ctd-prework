@@ -29,9 +29,11 @@ function setup() {
   triangle(200, 155, 200, 160, 220, 157);
 
     // Step 8: Add waving arm (right arm raised)
-  stroke(102, 51, 0);         // Brown stick color
-  strokeWeight(4);           // Make the stick thicker
-  line(230, 220, 280, 150);  // Right arm waving up
+  stroke(139, 69, 19); // Brown stick color (you can skip this if already set)
+  strokeWeight(4);     // Thicker line for arm
+
+  // Start from the right side of the middle snowball
+  line(240, 220, 290, 150); // Reaches up and out
 
   // Left arm for balance
   line(170, 220, 120, 220);  // Straight out to left

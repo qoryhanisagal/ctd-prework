@@ -7,9 +7,14 @@ function setup() {
 }
 
 function draw() {
-  // Step 2: Clear the canvas each frame
-  // This ensures a clean redraw (good habit even if nothing is animating yet)
+  // Step 2: Clear the canvas each frame and add text 
+    // This ensures a clean redraw
   background(220);
+  // Draw title text
+  textSize(24);
+  textAlign(CENTER);
+  fill(0);
+  text("Snowman", width / 2, 40);
 
   // Step 3: Draw the snowman’s body using three stacked ellipses
   fill(255); // White color
