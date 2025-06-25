@@ -36,4 +36,3 @@ function setup() {
   textAlign(CENTER);
   text("Breakfast is Served", width / 2, 40);
 }
-}
