@@ -26,5 +26,14 @@ function setup() {
   fill(255, 204, 0);    // Egg yolk
   ellipse(200, 270, 20, 20);
 
-  
+  // Step 6: Add chicken sausage (long and oval)
+  fill(222, 184, 135); // Chicken sausage color
+  ellipse(200, 320, 100, 25); // Horizontal sausage
+
+  // Step 7: Add text title
+  fill(0);
+  textSize(20);
+  textAlign(CENTER);
+  text("Breakfast is Served", width / 2, 40);
+}
 }
