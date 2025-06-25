@@ -15,4 +15,16 @@ function setup() {
   fill(205, 133, 63); // Toast brown
   rect(125, 190, 60, 40, 10); // Left toast
   rect(215, 190, 60, 40, 10); // Right toast
+
+  // Step 4: Add strawberry jelly on left toast
+  fill(220, 20, 60); // Deep reddish-pink for jelly
+  ellipse(155, 210, 30, 20); // Jelly blob on toast (x, y, width, height)
+
+  // Step 5: Add fried egg
+  fill(255, 255, 240);  // Egg white
+  ellipse(200, 270, 70, 50);
+  fill(255, 204, 0);    // Egg yolk
+  ellipse(200, 270, 20, 20);
+
+  
 }
